@@ -8,10 +8,13 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProductImgComponent implements OnInit {
 
   @Input()
-  img_url: string;
-  
+  product_url: string;
+
+  @Input()
+  heart_url: string// = "'http://localhost:8100/assets/samples/vector.png'";
+
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
 }
