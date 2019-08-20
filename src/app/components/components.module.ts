@@ -5,8 +5,6 @@ import { ProductInfoComponent } from './product-info/product-info.component';
 import { ProductPriceComponent } from './product-price/product-price.component';
 import { ProductFooterComponent } from './product-footer/product-footer.component';
 
-
-
 @NgModule({
   declarations: [
     ProductImgComponent,
@@ -18,7 +16,11 @@ import { ProductFooterComponent } from './product-footer/product-footer.componen
     CommonModule
   ],
   exports: [
-
+    ProductImgComponent,
+    ProductFooterComponent,
+    ProductInfoComponent,
+    ProductPriceComponent
   ]
 })
 export class ComponentsModule { }
+
