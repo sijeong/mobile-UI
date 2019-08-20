@@ -16,7 +16,17 @@
     ],
     "lib": [
       "es2018",
-      "dom"
-    ]
+      "dom",
+      "esnext",
+      "esnext.asynciterable"
+    ],
+    "paths": {
+      "apollo": [
+        "dist/apollo"
+      ],
+      "apollo/*": [
+        "dist/apollo/*"
+      ]
+    }
   }
 }
