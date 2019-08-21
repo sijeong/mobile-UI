@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-export interface Option{
+export interface Option {
   free_delivery: boolean;
   lowest_price: boolean;
   pv: boolean;
@@ -15,9 +15,15 @@ export class ProductPriceComponent implements OnInit {
 
   @Input()
   display_options: Option;
-  
+
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.display_options = {
+      free_delivery: false,
+      lowest_price: true,
+      pv: true
+    }
+  }
 
 }

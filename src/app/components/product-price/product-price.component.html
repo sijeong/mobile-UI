@@ -1,3 +1,5 @@
-<p>
-  product-price works!
-</p>
+<div class="buttons are-small">
+  <div *ngIf="display_options.pv" class="button is-outlined">pv</div>
+  <div *ngIf="display_options.lowest_price" class="button  is-danger">최저가</div>
+  <div *ngIf="display_options.free_delivery" class="button is-danger">무료배송</div>
+</div>

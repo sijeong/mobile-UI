@@ -1,20 +1,22 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      nbb components listings
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
+  <!-- <div class="ion-padding">
     The world is your oyster.
     <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be
       your guide.</p>
-  </div>
+  </div> -->
 
-  <app-product-img 
-  [product_url]="'http://localhost:8100/assets/samples/product_01.png'" 
-  [heart_url]="'http://localhost:8100/assets/samples/vector.png'"></app-product-img>>
-
+  <app-product-img [product_url]="'http://localhost:8100/assets/samples/product_01.png'"
+    [heart_url]="'http://localhost:8100/assets/samples/vector.png'">
+  </app-product-img>
+  <app-product-price></app-product-price>
+  <app-product-info></app-product-info>
+  <app-wish-item></app-wish-item>
 </ion-content>

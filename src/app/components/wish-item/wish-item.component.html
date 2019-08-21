@@ -1,0 +1,25 @@
+<div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3">
+      <img [src]="" alt="">
+    </figure>
+  </div>
+  <div class="card-content is-overlay">
+    <img [src]="'assets/samples/ellipse.png'" alt="">
+    <img [src]="'assets/samples/check.png'" alt="" class="">
+  </div>
+</div>
+<!-- <div class="level">
+  <div class="level-left">
+    {{ display_option.dc_ratio | percent}}
+  </div>
+  <div class="level-right">
+    {{ display_option.price | number}} 원
+  </div>
+</div> -->
+<div class="columns is-flex">
+  <div class="column has-text-left">{{ display_option.dc_ratio | percent}}</div>
+  <div class="column has-text-right">{{ display_option.price | number}} 원</div>
+  <!-- <span class="has-text-left">{{ display_option.dc_ratio | percent}}</span>
+  <span class="has-text-right">{{ display_option.price | number}} 원</span> -->
+</div>

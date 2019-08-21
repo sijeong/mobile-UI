@@ -4,13 +4,15 @@ import { ProductImgComponent } from './product-img/product-img.component';
 import { ProductInfoComponent } from './product-info/product-info.component';
 import { ProductPriceComponent } from './product-price/product-price.component';
 import { ProductFooterComponent } from './product-footer/product-footer.component';
+import { WishItemComponent } from './wish-item/wish-item.component';
 
 @NgModule({
   declarations: [
     ProductImgComponent,
     ProductInfoComponent,
     ProductPriceComponent,
-    ProductFooterComponent
+    ProductFooterComponent,
+    WishItemComponent,
   ],
   imports: [
     CommonModule
@@ -19,7 +21,8 @@ import { ProductFooterComponent } from './product-footer/product-footer.componen
     ProductImgComponent,
     ProductFooterComponent,
     ProductInfoComponent,
-    ProductPriceComponent
+    ProductPriceComponent,
+    WishItemComponent,
   ]
 })
 export class ComponentsModule { }
